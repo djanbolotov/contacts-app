@@ -1,0 +1,123 @@
+.main_container {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+
+.search_input {
+  width: 551px;
+  height: 40px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(33, 33, 33, 0.5);
+}
+
+.search_sort {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort_red,
+.sort_black,
+.heart_filter {
+  margin-right: 15px;
+  font-size: 40px;
+}
+
+.sort_red {
+  border: 2px solid red;
+  color: red;
+}
+
+.sort_black {
+  border: 2px solid black;
+  color: black;
+}
+
+.heart_filter {
+  color: red;
+}
+
+
+.contacts_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 57px;
+  margin-top: 30px;
+}
+
+.contact_img {
+  width: 250px;
+  height: 134px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.contact_container {
+  width: 250px;
+  height: 230px;
+  background: #ffffff;
+  box-shadow: 1px 1px 3px rgba(33, 33, 33, 0.25);
+  border-radius: 4px;
+}
+
+.cont_info_container {
+  padding: 10px;
+}
+
+.contact_title,
+.contact_info li {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.contact_info {
+  height: 79px;
+  width: 161px;
+  padding: 0;
+  margin: 10px 0px 10px 0px;
+}
+
+.contact_info li {
+  list-style: none;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.title_heart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_button {
+  background: #625e5e;
+  border-radius: 10px;
+  color: white;
+  width: 160px;
+  position: relative;
+  left: 35px;
+  top: 16px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.white_heart {
+  color: lightgray;
+  cursor: pointer;
+}
+.red_heart {
+  color: red;
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}

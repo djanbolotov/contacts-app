@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+  }
+  header {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    background-color: #212121;
+    color: white;
+    padding: 20px;
+  }
+  
+  .phoneIcon {
+    position: relative;
+    top: 1px;
+    left: 10px;
+  }
+  .header {
+    cursor: pointer;
+  }

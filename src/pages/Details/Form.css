@@ -1,0 +1,72 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: flex-end;
+  }
+  
+  .input_block {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+  
+  .input {
+    width: 289px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.75);
+  }
+  
+  .label {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(33, 33, 33, 0.75);
+  }
+  
+  .button {
+    width: 289px;
+    height: 40px;
+    background: #212121;
+    border-radius: 2px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  /* item styles */
+  
+  .item_container {
+    margin: 40px;
+    width: 900px;
+  }
+  
+  .redHeart,
+  .whiteHeart {
+    font-size: 70px;
+    margin: 20px;
+    color: red;
+  }
+  .image_heart {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .whiteHeart {
+    color: lightgray;
+    cursor: pointer;
+  }
+  .redheart {
+    color: red;
+    cursor: pointer;
+  }
